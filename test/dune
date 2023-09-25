@@ -1,2 +1,3 @@
 (test
- (name ocaml_backend))
+ (name test)
+ (libraries ocaml_backend ounit2))
