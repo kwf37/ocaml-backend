@@ -20,6 +20,7 @@
                 bbenoist.nix
                 vscodevim.vim
                 ocamllabs.ocaml-platform
+                ms-azuretools.vscode-docker
               ];
             };
           in 
@@ -30,6 +31,9 @@
                 libev
                 openssl
                 pkg-config
+                sqitchPg
+                docker
+                postgresql
               ]; 
             };
       });

@@ -1,6 +1,6 @@
 (executable
  (public_name ocaml_backend)
  (name main)
- (libraries dream))
+ (libraries ocaml_backend))
 
 (data_only_dirs _esy esy.lock lib node_modules)

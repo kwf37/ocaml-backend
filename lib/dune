@@ -1,2 +1,3 @@
 (library
- (name ocaml_backend))
+ (name ocaml_backend)
+ (libraries dream caqti-driver-postgresql))
