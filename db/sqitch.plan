@@ -1,3 +1,5 @@
 %syntax-version=1.0.0
 %project=ocaml-backend
 
+1__add_app_schema 2023-10-22T21:21:34Z Kenneth Fang <palladion@nixos> # Add app schema
+2__add_point_table 2023-10-22T22:57:42Z Kenneth Fang <palladion@nixos> # Add table for points

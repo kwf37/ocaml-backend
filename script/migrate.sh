@@ -1,0 +1,1 @@
+sqitch deploy --verify db:postgresql://ocaml:password@localhost

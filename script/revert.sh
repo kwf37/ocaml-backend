@@ -1,0 +1,1 @@
+sqitch revert db:postgresql://ocaml:password@localhost
