@@ -1,4 +1,7 @@
+(** This file written using https://github.com/paurkedal/caqti-study/blob/main/study/hello-caqti-lwt/lib/repo/exec.ml as a reference. *)
+
 let url = "postgresql://ocaml:password@localhost"
+
 
 (* This is the connection pool we will use for executing DB operations. *)
 let connect () =
