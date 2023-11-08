@@ -44,5 +44,5 @@ end
 let get_points (module Conn : Caqti_lwt.CONNECTION) =
   Conn.fold Q.get_all_points (fun (x, y) acc -> (Point.create x y)::acc) () []
 
-let insert_point (module Conn : Caqti_lwt.CONNECTION) =
-  Conn.exec Q.insert_point
+let insert_point (x, y) (module Conn : Caqti_lwt.CONNECTION) =
+  Conn.exec Q.insert_point (x, y)

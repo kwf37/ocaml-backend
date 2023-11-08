@@ -15,6 +15,6 @@ val get_points :
   Lwt.t
 
 val insert_point :
-  (module Caqti_lwt.CONNECTION) ->
   float * float ->
+  (module Caqti_lwt.CONNECTION) ->
   (unit, [> Caqti_error.call_or_retrieve ]) result Lwt.t
