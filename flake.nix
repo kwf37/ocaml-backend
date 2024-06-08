@@ -14,20 +14,9 @@
       };
       in {
         devShell = with pkgs; 
-          let vscodeWithExtensions = 
-            vscode-with-extensions.override {
-              vscodeExtensions = with vscode-extensions; [
-                bbenoist.nix
-                vscodevim.vim
-                ocamllabs.ocaml-platform
-                ms-azuretools.vscode-docker
-              ];
-            };
-          in 
             mkShell { 
               buildInputs = [ 
                 opam
-                vscodeWithExtensions
                 libev
                 openssl
                 pkg-config
